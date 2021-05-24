@@ -17,10 +17,6 @@ import seaborn as sns
 from PIL import Image
 import argparse
 import datetime
-#from architectures import ARCHITECTURES, get_architecture
-#from attacks import Attacker, PGD_L2, DDN
-#from datasets import get_dataset, DATASETS, get_num_classes,\
-                     #MultiDatasetsDataLoader, TiTop50KDataset
 import numpy as np
 from torch.autograd import Variable
 from torch.nn import CrossEntropyLoss
@@ -28,7 +24,6 @@ from torch.optim import SGD, Optimizer
 import torch.optim as optim
 from torch.optim.lr_scheduler import StepLR
 from torch.utils.data import DataLoader
-#from train_utils import AverageMeter, accuracy, init_logfile, log, copy_code, requires_grad_
 import random
 import argparse
 import os.path as osp
